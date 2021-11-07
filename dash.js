@@ -215,7 +215,7 @@ var MyDash = GObject.registerClass({
             vertical: !this._isHorizontal,
             clip_to_allocation: false,
             x_align: Clutter.ActorAlign.CENTER,
-            y_align: Clutter.ActorAlign.CENTER,
+            y_align: Clutter.ActorAlign.START,
         });
         this._box._delegate = this;
         this._container.add_actor(this._scrollView);
